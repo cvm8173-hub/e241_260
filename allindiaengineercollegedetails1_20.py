@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/sistec-sagar-institute-of-science-and-technology-bhopal-36859",
-  "https://www.shiksha.com/college/bharati-vidyapeeth-s-college-of-engineering-for-women-dhankawadi-pune-37027",
-  "https://www.shiksha.com/university/annamacharya-university-kadapa-227577",
-  "https://www.shiksha.com/college/techno-main-salt-lake-salt-lake-city-kolkata-48911",
-  "https://www.shiksha.com/university/shiv-nadar-university-snu-greater-noida-32865",
-  "https://www.shiksha.com/college/gargi-memorial-institute-of-technology-baruipur-kolkata-37028",
-  "https://www.shiksha.com/college/school-of-engineering-presidency-university-bangalore-yelahanaka-154661",
-  "https://www.shiksha.com/college/sardar-patel-institute-of-technology-andheri-west-mumbai-48091",
-  "https://www.shiksha.com/college/iilm-university-greater-noida-3227",
-  "https://www.shiksha.com/college/l-d-college-of-engineering-university-area-ahmedabad-38192",
-  "https://www.shiksha.com/college/faculty-of-technology-university-of-delhi-delhi-other-213561",
-  "https://www.shiksha.com/university/chanakya-university-bangalore-181399",
-  "https://www.shiksha.com/university/cochin-university-of-science-and-technology-kochi-28013",
-  "https://www.shiksha.com/university/woxsen-university-hyderabad-138295",
-  "https://www.shiksha.com/university/rayat-bahra-university-mohali-47305",
-  "https://www.shiksha.com/university/university-of-lucknow-21456",
-  "https://www.shiksha.com/college/amrita-school-of-engineering-amrita-vishwa-vidyapeetham-bengaluru-campus-sarjapur-road-bangalore-35737",
-  "https://www.shiksha.com/college/college-of-engineering-anna-university-guindy-chennai-51546",
-  "https://www.shiksha.com/university/shiv-nadar-university-chennai-150793",
-  "https://www.shiksha.com/college/srm-institute-of-science-and-technology-tiruchirappalli-153369",
+  "https://www.shiksha.com/college/jawaharlal-nehru-government-engineering-college-mandi-52537",
+  "https://www.shiksha.com/college/future-institute-of-technology-garia-kolkata-43881",
+  "https://www.shiksha.com/college/gn-group-of-institutes-greater-noida-56393",
+  "https://www.shiksha.com/college/gayatri-vidya-parishad-college-for-degree-and-pg-courses-visakhapatnam-42981",
+  "https://www.shiksha.com/university/dbs-global-university-dehradun-224691",
+  "https://www.shiksha.com/college/ima-international-maritime-academy-chennai-32492",
+  "https://www.shiksha.com/university/mats-university-raipur-37181",
+  "https://www.shiksha.com/college/baba-farid-college-baba-farid-group-of-institutions-bathinda-52971",
+  "https://www.shiksha.com/college/college-of-engineering-shivnagar-vidya-prasarak-mandal-s-malegaon-pune-21348",
+  "https://www.shiksha.com/college/sahyadri-valley-college-of-engineering-and-technology-mumbai-pune-road-pune-36815",
+  "https://www.shiksha.com/college/university-college-of-engineering-kakinada-jawaharlal-nehru-technological-university-kakinada-51533",
+  "https://www.shiksha.com/college/nawab-shah-alam-khan-college-of-engineering-and-technology-nsakcet-old-malakpet-hyderabad-49358",
+  "https://www.shiksha.com/college/jain-college-of-engineering-jce-belgaum-42715",
+  "https://www.shiksha.com/university/the-icfai-university-raipur-38055",
+  "https://www.shiksha.com/university/i-k-gujral-punjab-technical-university-ptu-punjab-other-24093",
+  "https://www.shiksha.com/college/barkatullah-university-institute-of-technology-bhopal-52535",
+  "https://www.shiksha.com/college/engineering-college-ajmer-25156",
+  "https://www.shiksha.com/college/swami-devi-dyal-group-of-professional-institutions-panchkula-21349",
+  "https://www.shiksha.com/university/datta-meghe-institute-of-higher-education-and-research-deemed-to-be-university-wardha-55755",
+  "https://www.shiksha.com/college/francis-xavier-engineering-college-tirunelveli-42769",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =241
+    c_count =661
 
     try:
         for base_url in BASE_URL:
