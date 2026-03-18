@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/jawaharlal-nehru-government-engineering-college-mandi-52537",
-  "https://www.shiksha.com/college/future-institute-of-technology-garia-kolkata-43881",
-  "https://www.shiksha.com/college/gn-group-of-institutes-greater-noida-56393",
-  "https://www.shiksha.com/college/gayatri-vidya-parishad-college-for-degree-and-pg-courses-visakhapatnam-42981",
-  "https://www.shiksha.com/university/dbs-global-university-dehradun-224691",
-  "https://www.shiksha.com/college/ima-international-maritime-academy-chennai-32492",
-  "https://www.shiksha.com/university/mats-university-raipur-37181",
-  "https://www.shiksha.com/college/baba-farid-college-baba-farid-group-of-institutions-bathinda-52971",
-  "https://www.shiksha.com/college/college-of-engineering-shivnagar-vidya-prasarak-mandal-s-malegaon-pune-21348",
-  "https://www.shiksha.com/college/sahyadri-valley-college-of-engineering-and-technology-mumbai-pune-road-pune-36815",
-  "https://www.shiksha.com/college/university-college-of-engineering-kakinada-jawaharlal-nehru-technological-university-kakinada-51533",
-  "https://www.shiksha.com/college/nawab-shah-alam-khan-college-of-engineering-and-technology-nsakcet-old-malakpet-hyderabad-49358",
-  "https://www.shiksha.com/college/jain-college-of-engineering-jce-belgaum-42715",
-  "https://www.shiksha.com/university/the-icfai-university-raipur-38055",
-  "https://www.shiksha.com/university/i-k-gujral-punjab-technical-university-ptu-punjab-other-24093",
-  "https://www.shiksha.com/college/barkatullah-university-institute-of-technology-bhopal-52535",
-  "https://www.shiksha.com/college/engineering-college-ajmer-25156",
-  "https://www.shiksha.com/college/swami-devi-dyal-group-of-professional-institutions-panchkula-21349",
-  "https://www.shiksha.com/university/datta-meghe-institute-of-higher-education-and-research-deemed-to-be-university-wardha-55755",
-  "https://www.shiksha.com/college/francis-xavier-engineering-college-tirunelveli-42769",
+  "https://www.shiksha.com/college/nigam-institute-of-engineering-and-technology-bhubaneswar-66379",
+  "https://www.shiksha.com/college/anuradha-engineering-college-maharashtra-other-59377",
+  "https://www.shiksha.com/university/ahmedabad-university-38020",
+  "https://www.shiksha.com/college/babu-banarasi-das-engineering-college-lucknow-60027",
+  "https://www.shiksha.com/college/geethanjali-institute-of-science-and-technology-kovur-nellore-60622",
+  "https://www.shiksha.com/college/chaitanya-engineering-college-visakhapatnam-44922",
+  "https://www.shiksha.com/college/nri-institute-of-information-science-and-technology-bhopal-64521",
+  "https://www.shiksha.com/college/government-engineering-college-kaimur-bihar-other-146451",
+  "https://www.shiksha.com/university/assam-science-and-technology-university-guwahati-53604",
+  "https://www.shiksha.com/college/musaliar-college-of-engineering-chirayinkeezh-trivandrum-60483",
+  "https://www.shiksha.com/college/dadasaheb-mokashi-college-of-food-technology-satara-66879",
+  "https://www.shiksha.com/college/sriram-engineering-college-tiruvallur-chennai-21306",
+  "https://www.shiksha.com/college/lakshmi-narain-college-of-technology-excellence-bhopal-61235",
+  "https://www.shiksha.com/college/rvs-technical-campus-coimbatore-59079",
+  "https://www.shiksha.com/college/takshshila-institute-of-engineering-and-technology-jabalpur-42785",
+  "https://www.shiksha.com/college/dr-a-d-shinde-college-of-engineering-kolhapur-60013",
+  "https://www.shiksha.com/college/tontadarya-college-of-engineering-gadag-59165",
+  "https://www.shiksha.com/college/rkdf-institute-of-science-and-technology-rkdfist-bhopal-40375",
+  "https://www.shiksha.com/college/vilasrao-deshmukh-college-of-engineering-and-technology-nagpur-59823",
+  "https://www.shiksha.com/college/college-of-agricultural-engineering-and-technology-samastipur-194877",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =661
+    c_count =1161
 
     try:
         for base_url in BASE_URL:
