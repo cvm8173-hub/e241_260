@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/nigam-institute-of-engineering-and-technology-bhubaneswar-66379",
-  "https://www.shiksha.com/college/anuradha-engineering-college-maharashtra-other-59377",
-  "https://www.shiksha.com/university/ahmedabad-university-38020",
-  "https://www.shiksha.com/college/babu-banarasi-das-engineering-college-lucknow-60027",
-  "https://www.shiksha.com/college/geethanjali-institute-of-science-and-technology-kovur-nellore-60622",
-  "https://www.shiksha.com/college/chaitanya-engineering-college-visakhapatnam-44922",
-  "https://www.shiksha.com/college/nri-institute-of-information-science-and-technology-bhopal-64521",
-  "https://www.shiksha.com/college/government-engineering-college-kaimur-bihar-other-146451",
-  "https://www.shiksha.com/university/assam-science-and-technology-university-guwahati-53604",
-  "https://www.shiksha.com/college/musaliar-college-of-engineering-chirayinkeezh-trivandrum-60483",
-  "https://www.shiksha.com/college/dadasaheb-mokashi-college-of-food-technology-satara-66879",
-  "https://www.shiksha.com/college/sriram-engineering-college-tiruvallur-chennai-21306",
-  "https://www.shiksha.com/college/lakshmi-narain-college-of-technology-excellence-bhopal-61235",
-  "https://www.shiksha.com/college/rvs-technical-campus-coimbatore-59079",
-  "https://www.shiksha.com/college/takshshila-institute-of-engineering-and-technology-jabalpur-42785",
-  "https://www.shiksha.com/college/dr-a-d-shinde-college-of-engineering-kolhapur-60013",
-  "https://www.shiksha.com/college/tontadarya-college-of-engineering-gadag-59165",
-  "https://www.shiksha.com/college/rkdf-institute-of-science-and-technology-rkdfist-bhopal-40375",
-  "https://www.shiksha.com/college/vilasrao-deshmukh-college-of-engineering-and-technology-nagpur-59823",
-  "https://www.shiksha.com/college/college-of-agricultural-engineering-and-technology-samastipur-194877",
+  "https://www.shiksha.com/college/stella-mary-s-college-of-engineering-kanyakumari-61687",
+  "https://www.shiksha.com/college/mother-theressa-college-of-engineering-and-technology-karimnagar-62155",
+  "https://www.shiksha.com/college/pkg-group-of-institutions-panipat-32300",
+  "https://www.shiksha.com/college/einstein-college-of-engineering-tirunelveli-42545",
+  "https://www.shiksha.com/college/mes-institute-of-technology-and-management-chathannoor-kollam-60505",
+  "https://www.shiksha.com/university/anjaneya-university-raipur-215757",
+  "https://www.shiksha.com/college/t-j-s-engineering-college-tamil-nadu-other-57273",
+  "https://www.shiksha.com/college/m-g-institute-of-management-technology-lucknow-59953",
+  "https://www.shiksha.com/college/university-of-jammu-kathua-campus-213423",
+  "https://www.shiksha.com/college/siddhi-vinayak-group-of-colleges-alwar-27166",
+  "https://www.shiksha.com/college/netaji-institute-of-engineering-and-technology-ramoji-film-city-hyderabad-61343",
+  "https://www.shiksha.com/college/mittal-institute-of-technology-bhopal-52764",
+  "https://www.shiksha.com/college/mm-college-of-technology-raipur-60099",
+  "https://www.shiksha.com/college/visvesvaraya-college-of-engineering-and-technology-ranga-reddy-62229",
+  "https://www.shiksha.com/college/government-polytechnic-college-shahjahanpur-66849",
+  "https://www.shiksha.com/college/oasys-institute-of-technology-tiruchirappalli-43344",
+  "https://www.shiksha.com/college/college-of-engineering-pathanapuram-kerala-other-60564",
+  "https://www.shiksha.com/college/sri-dharmsthala-manjunatheshwar-college-of-engineering-technology-karnataka-dharwad-21258",
+  "https://www.shiksha.com/college/pacific-polytechnic-college-pacific-university-udaipur-59241",
+  "https://www.shiksha.com/college/bengal-institute-of-technology-and-management-birbhum-70929",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1161
+    c_count =1541
 
     try:
         for base_url in BASE_URL:
