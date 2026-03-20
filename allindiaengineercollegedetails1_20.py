@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/stella-mary-s-college-of-engineering-kanyakumari-61687",
-  "https://www.shiksha.com/college/mother-theressa-college-of-engineering-and-technology-karimnagar-62155",
-  "https://www.shiksha.com/college/pkg-group-of-institutions-panipat-32300",
-  "https://www.shiksha.com/college/einstein-college-of-engineering-tirunelveli-42545",
-  "https://www.shiksha.com/college/mes-institute-of-technology-and-management-chathannoor-kollam-60505",
-  "https://www.shiksha.com/university/anjaneya-university-raipur-215757",
-  "https://www.shiksha.com/college/t-j-s-engineering-college-tamil-nadu-other-57273",
-  "https://www.shiksha.com/college/m-g-institute-of-management-technology-lucknow-59953",
-  "https://www.shiksha.com/college/university-of-jammu-kathua-campus-213423",
-  "https://www.shiksha.com/college/siddhi-vinayak-group-of-colleges-alwar-27166",
-  "https://www.shiksha.com/college/netaji-institute-of-engineering-and-technology-ramoji-film-city-hyderabad-61343",
-  "https://www.shiksha.com/college/mittal-institute-of-technology-bhopal-52764",
-  "https://www.shiksha.com/college/mm-college-of-technology-raipur-60099",
-  "https://www.shiksha.com/college/visvesvaraya-college-of-engineering-and-technology-ranga-reddy-62229",
-  "https://www.shiksha.com/college/government-polytechnic-college-shahjahanpur-66849",
-  "https://www.shiksha.com/college/oasys-institute-of-technology-tiruchirappalli-43344",
-  "https://www.shiksha.com/college/college-of-engineering-pathanapuram-kerala-other-60564",
-  "https://www.shiksha.com/college/sri-dharmsthala-manjunatheshwar-college-of-engineering-technology-karnataka-dharwad-21258",
-  "https://www.shiksha.com/college/pacific-polytechnic-college-pacific-university-udaipur-59241",
-  "https://www.shiksha.com/college/bengal-institute-of-technology-and-management-birbhum-70929",
+  "https://www.shiksha.com/college/sophitorium-engineering-college-bhubaneswar-61407",
+  "https://www.shiksha.com/college/indira-institute-of-engineering-and-technology-thiruvarur-61629",
+  "https://www.shiksha.com/college/sri-bharathi-engineering-college-for-women-tamil-nadu-other-61657",
+  "https://www.shiksha.com/college/indian-institute-of-handloom-technology-champa-chhattisgarh-other-98991",
+  "https://www.shiksha.com/college/shri-sai-college-of-engineering-technology-nagpur-60009",
+  "https://www.shiksha.com/college/r-v-s-engineering-college-jamshedpur-187671",
+  "https://www.shiksha.com/college/khammam-institute-of-technology-and-science-194157",
+  "https://www.shiksha.com/college/g-h-raisoni-college-of-engineering-and-management-nagpur-236820",
+  "https://www.shiksha.com/college/jaipur-institute-of-engineering-technology-kukas-35943",
+  "https://www.shiksha.com/college/ghanashyam-hemalata-institute-of-technology-and-management-ghitm-puri-49126",
+  "https://www.shiksha.com/college/modinagar-institute-of-technology-52780",
+  "https://www.shiksha.com/college/tagore-institute-of-engineering-and-technology-tiet-salem-42851",
+  "https://www.shiksha.com/college/college-of-dairy-technology-kamareddy-nizamabad-63503",
+  "https://www.shiksha.com/college/sukhjinder-groups-of-institutes-pathankot-66815",
+  "https://www.shiksha.com/college/rvs-group-of-institution-kannampalayam-campus-coimbatore-151885",
+  "https://www.shiksha.com/college/purushottam-institute-of-engineering-and-technology-piet-rourkela-20925",
+  "https://www.shiksha.com/college/aryabhatt-college-of-engineering-and-technology-acet-baghpat-33101",
+  "https://www.shiksha.com/college/agra-college-of-management-and-technology-rohini-delhi-49102",
+  "https://www.shiksha.com/college/bansal-institute-of-engineering-and-technology-meerut-56039",
+  "https://www.shiksha.com/college/mahatma-gandhi-institute-of-technical-education-and-research-center-navsari-60243",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1541
+    c_count =1961
 
     try:
         for base_url in BASE_URL:
