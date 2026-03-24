@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/ishteyak-ahmad-memorial-mahavidyalaya-uttar-pradesh-other-129969",
-  "https://www.shiksha.com/college/paras-singh-college-of-pharmacy-uttar-pradesh-other-148657",
-  "https://www.shiksha.com/college/narvadeshwar-pharmacy-college-barabanki-148799",
-  "https://www.shiksha.com/college/unnati-pharmacy-college-mathura-149351",
-  "https://www.shiksha.com/college/prabhakar-college-of-pharmacy-azamgarh-156179",
-  "https://www.shiksha.com/college/daggubati-chenchu-ramaiah-memorial-pharmacy-college-prakasam-156583",
-  "https://www.shiksha.com/college/department-of-pharmaceutical-education-and-research-sonepat-156879",
-  "https://www.shiksha.com/college/aditya-institute-of-pharmacy-jalgaon-179663",
-  "https://www.shiksha.com/college/hygia-college-of-pharmacy-uttar-pradesh-other-181225",
-  "https://www.shiksha.com/college/jagmeet-memorial-college-of-pharmacy-uttar-pradesh-other-181241",
-  "https://www.shiksha.com/college/naurang-singh-college-of-pharmacy-ghazipur-181321",
-  "https://www.shiksha.com/college/thakur-yugraj-singh-pharmacy-college-uttar-pradesh-other-181759",
-  "https://www.shiksha.com/college/vandana-institute-of-pharmacy-ghazipur-181793",
-  "https://www.shiksha.com/college/baba-gajjan-das-college-of-pharmacy-ghazipur-231344",
-  "https://www.shiksha.com/college/krishna-pharmacy-college-jodhpur-231420",
-  "https://www.shiksha.com/college/p-m-d-mahavidyalaya-bhikharipur-mau-231476",
-  "https://www.shiksha.com/college/advika-college-of-pharmacy-research-centre-maharashtra-other-236638",
-  "https://www.shiksha.com/college/s-b-patil-college-of-pharmacy-pune-236748",
-  "https://www.shiksha.com/college/gurukripa-institute-of-medical-education-sikar-236872",
-  "https://www.shiksha.com/college/smt-narayni-college-of-pharmacy-jaipur-236948",
+  "https://www.shiksha.com/college/r-k-college-datia-230096",
+  "https://www.shiksha.com/college/rani-dulliaiya-smriti-homoepathic-medical-college-and-hospital-bhopal-231254",
+  "https://www.shiksha.com/college/mehta-college-of-pharmacy-jaipur-231444",
+  "https://www.shiksha.com/college/pt-mahavir-prasad-college-of-pharmacy-sambhal-231492",
+  "https://www.shiksha.com/college/ruhi-convent-education-and-research-society-sadulpur-churu-231536",
+  "https://www.shiksha.com/college/champaran-college-of-pharmacy-motihari-236320",
+  "https://www.shiksha.com/college/maharana-pratap-college-of-education-bihar-other-236338",
+  "https://www.shiksha.com/college/prabhu-kailash-nursing-college-bihar-other-236342",
+  "https://www.shiksha.com/college/n-c-college-of-pharmacy-panipat-236464",
+  "https://www.shiksha.com/college/sanskaram-group-of-institutions-jhajjar-236476",
+  "https://www.shiksha.com/college/dnyaneshwar-kolase-patil-institute-of-pharmacy-solapur-236692",
+  "https://www.shiksha.com/college/imperial-college-of-pharmacy-maharashtra-other-236704",
+  "https://www.shiksha.com/college/late-devrao-digambar-varat-college-of-pharmacy-maharashtra-other-236716",
+  "https://www.shiksha.com/college/kalda-burn-and-plastic-surgery-centre-raipur-240806",
+  "https://www.shiksha.com/college/seven-hills-hospital-visakhapatnam-240870",
+  "https://www.shiksha.com/college/maa-urmila-devi-college-of-pharmacy-rampur-242664",
+  "https://www.shiksha.com/college/fatima-pharmacy-college-balrampur-242676",
+  "https://www.shiksha.com/college/s-p-institute-of-neurosciences-solapur-243722",
+  "https://www.shiksha.com/college/manipal-hospitals-mukundapur-mukundapur-kolkata-243750",
+  "https://www.shiksha.com/college/apollo-speciality-hospital-madurai-243778",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 4021
+    c_count = 4401
 
     try:
         for base_url in BASE_URL:
