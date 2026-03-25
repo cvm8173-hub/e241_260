@@ -15,26 +15,10 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/r-k-college-datia-230096",
-  "https://www.shiksha.com/college/rani-dulliaiya-smriti-homoepathic-medical-college-and-hospital-bhopal-231254",
-  "https://www.shiksha.com/college/mehta-college-of-pharmacy-jaipur-231444",
-  "https://www.shiksha.com/college/pt-mahavir-prasad-college-of-pharmacy-sambhal-231492",
-  "https://www.shiksha.com/college/ruhi-convent-education-and-research-society-sadulpur-churu-231536",
-  "https://www.shiksha.com/college/champaran-college-of-pharmacy-motihari-236320",
-  "https://www.shiksha.com/college/maharana-pratap-college-of-education-bihar-other-236338",
-  "https://www.shiksha.com/college/prabhu-kailash-nursing-college-bihar-other-236342",
-  "https://www.shiksha.com/college/n-c-college-of-pharmacy-panipat-236464",
-  "https://www.shiksha.com/college/sanskaram-group-of-institutions-jhajjar-236476",
-  "https://www.shiksha.com/college/dnyaneshwar-kolase-patil-institute-of-pharmacy-solapur-236692",
-  "https://www.shiksha.com/college/imperial-college-of-pharmacy-maharashtra-other-236704",
-  "https://www.shiksha.com/college/late-devrao-digambar-varat-college-of-pharmacy-maharashtra-other-236716",
-  "https://www.shiksha.com/college/kalda-burn-and-plastic-surgery-centre-raipur-240806",
-  "https://www.shiksha.com/college/seven-hills-hospital-visakhapatnam-240870",
-  "https://www.shiksha.com/college/maa-urmila-devi-college-of-pharmacy-rampur-242664",
-  "https://www.shiksha.com/college/fatima-pharmacy-college-balrampur-242676",
-  "https://www.shiksha.com/college/s-p-institute-of-neurosciences-solapur-243722",
-  "https://www.shiksha.com/college/manipal-hospitals-mukundapur-mukundapur-kolkata-243750",
-  "https://www.shiksha.com/college/apollo-speciality-hospital-madurai-243778",
+  "https://www.shiksha.com/college/swami-vivekananda-institute-of-pharmaceutical-sciences-nalgonda-87787",
+  "https://www.shiksha.com/college/ranaghat-college-nadia-91675",
+  "https://www.shiksha.com/college/rao-mohar-singh-college-of-pharmacy-gurgaon-97277",
+  "https://www.shiksha.com/college/shoolini-institute-of-life-sciences-and-business-management-solan-69363",
 ]
 
 
@@ -9243,7 +9227,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 4401
+    c_count = 2701
 
     try:
         for base_url in BASE_URL:
